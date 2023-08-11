@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Sofia+Sans:wght@1&display=swap');
+
+
+body{
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.carrosel-inner{
+    max-height: 39rem;
+}
+/*============================MEDIA DE PANTALLA ANCHA==============*/
+
+
+/*============================MEDIA DE PANTALLA MEDIA==============*/
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+}
+/*============================CONTACTO==============*/
+
+
+#seccion-contacto{
+    background-color: rgb(117, 183, 234);
+    min-height: 200px;
+    position: relative;
+}
